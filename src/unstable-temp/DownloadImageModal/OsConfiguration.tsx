@@ -253,7 +253,7 @@ export const OsConfiguration = ({
 						/>
 					</Box>
 				)}
-				{(!isInitialDefault || !selectedOsType) && (
+				{(!isInitialDefault || !selectedOsType) && hasEsrVersions && (
 					<Box flex={2} ml={2}>
 						<DownloadImageLabel>
 							{t('placeholders.select_os_type_status')}{' '}
@@ -271,7 +271,9 @@ export const OsConfiguration = ({
 			{(!isInitialDefault || !version) && (
 				<Box mb={3}>
 					<DownloadImageLabel>
-						{t('placeholders.select_version')}
+						{hasEsrVersions
+							? t('placeholders.select_version')
+							: t('placeholders.select_balenaos_version')}
 					</DownloadImageLabel>
 
 					<Flex alignItems="center">
