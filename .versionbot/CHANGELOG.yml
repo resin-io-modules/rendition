@@ -1,4 +1,16 @@
 - commits:
+    - subject: Fix DownloadImageModal instructions step 1 typo
+      hash: 7ae19d128ad033c39b25dcac8b25c79977ffc8b3
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Matthew Yarmolinsky <matthew-timothy@balena.io>
+        signed-off-by: Matthew Yarmolinsky <matthew-timothy@balena.io>
+      author: Matthew Yarmolinsky
+  version: 20.20.4
+  date: 2021-07-12T17:24:25.773Z
+- commits:
     - subject: 'FilterModal: debounce the search for filter title'
       hash: 0fcdcc64cc1a004b242bbcc5b0558509d25d2f8e
       body: ''
