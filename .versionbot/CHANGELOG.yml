@@ -1,4 +1,17 @@
 - commits:
+    - subject: Add additional custom download image modal actions
+      hash: 531e5d6e418084b1e2841724c14fa60c6fb1f93a
+      body: |
+        Add additional custom download image modal actions
+      footer:
+        Change-type: minor
+        change-type: minor
+        Signed-off-by: Andrea Rosci <andrear@balena.io>
+        signed-off-by: Andrea Rosci <andrear@balena.io>
+      author: JSReds
+  version: 20.21.0
+  date: 2021-07-12T10:18:31.194Z
+- commits:
     - subject: 'FilterModal: debounce the search for filter title'
       hash: 0fcdcc64cc1a004b242bbcc5b0558509d25d2f8e
       body: ''
