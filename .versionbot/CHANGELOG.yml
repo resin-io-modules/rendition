@@ -1,4 +1,16 @@
 - commits:
+    - subject: Don't show "Select OS Type" if ESR is disabled
+      hash: 8ec844496813442bf9c412f87982817e07335555
+      body: ''
+      footer:
+        Change-type: patch
+        change-type: patch
+        Signed-off-by: Matthew Yarmolinsky <matthew-timothy@balena.io>
+        signed-off-by: Matthew Yarmolinsky <matthew-timothy@balena.io>
+      author: Matthew Yarmolinsky
+  version: 20.20.4
+  date: 2021-07-13T20:08:31.960Z
+- commits:
     - subject: 'FilterModal: debounce the search for filter title'
       hash: 0fcdcc64cc1a004b242bbcc5b0558509d25d2f8e
       body: ''
