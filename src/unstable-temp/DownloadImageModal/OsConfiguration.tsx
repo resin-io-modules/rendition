@@ -306,11 +306,11 @@ export const OsConfiguration = ({
 			)}
 
 			{hasEditions && (!isInitialDefault || !variant) && (
-				<Box mb={2}>
+				<Box>
 					<DownloadImageLabel>
 						{t('placeholders.select_edition')}
 					</DownloadImageLabel>
-					<Box mr={4} mb={3}>
+					<Box>
 						<VariantSelector
 							t={t}
 							version={version}
